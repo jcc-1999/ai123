@@ -1,0 +1,330 @@
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body{
+    position: relative;
+}
+ul li{
+    list-style-type:none;
+}
+.aa{
+    height: 60px;
+    background-color: #1448AD;
+}
+.aa_1{
+    color: #ffffff;
+}
+.aa img{
+    margin-top: 13px;
+}
+.aa_1 span{
+    margin-left: 10px;
+    line-height: 60px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-nav > .active > a{
+    height: 47px;
+    background-color: #1CB3DB;
+}
+.navbar-inverse .navbar-nav > .active > a:hover{
+    height: 47px;
+    background-color: #1CB3DB;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.carousel-indicators {
+    text-align: right;
+}
+.carousel-indicators li {
+    border: 1px solid #1CB3DB;
+}
+.carousel-indicators .active {
+    background-color: #1CB3DB;
+}
+.bb{
+    width: 550px;
+    height: 315px;
+    border: 2px solid #1CB3DB;
+    background-color: #FFFFFF;
+    z-index: 90;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.bb_1{
+    height: 100%;
+    background-color: #1CB3DB;
+}
+.bb_1 ul {
+    padding-left: 0px;
+}
+.bb_1 ul li{
+    width: 70px;
+    height: 50px;
+    border-bottom: 1px solid #1E99BA;
+    line-height: 50px;
+    list-style-type:none;
+    background-color: #1CB3DB;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 20px;
+}
+.bb_1 ul li.current{
+    color: #1CB3DB;
+    background-color: #ffffff;
+    border-left: 5px solid #FFC602;
+}
+.bb_3{
+    /*background-color: black;*/
+}
+.bb_2{
+    margin-top: 15px;
+}
+.bb_2 .Wdate{
+    width: 143px;
+}
+.bb_2 span{
+    display: inline-block;
+    width: 75px;
+    font-size: 15px;
+    text-align: right;
+}
+.bb_2 input{
+    height: 30px;
+}
+.bb_2 .input1{
+    width: 366px;
+}
+.bb_2 select{
+    width: 143px;
+    height: 28px;
+}
+.bb_2 p{
+    color: #1CB3DB;
+}
+.bb_2 button{
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 5%;
+    outline: none;
+    border: 1px solid #1CB3DB;
+    background-color: #1CB3DB;
+}
+#name_3>div:nth-of-type(1){
+    border-bottom: 1px dashed #CCCCCC;
+}
+#name_3>div>p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#name_3>div>p span{
+    color: #1CB3DB;
+}
+.cc_1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cc_1>div:nth-of-type(1) span{
+    margin-right: 20px;
+}
+.cc_1>div:nth-of-type(1) span.current{
+    padding: 5px;
+    border-radius: 5%;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #FFC467;
+}
+.cc_2{
+    width: 279px;
+    height: 255px;
+    margin-bottom: 10px;
+    position: relative;
+}
+/*1.如果需要实现标签中的文本内容的溢出隐藏显示省略号 在父元素设置一个宽度
+ 在子元素内设置 {overflow: hidden;     text-overflow: ellipsis;     white-space: nowrap;}*/
+.cc_2_1{
+    width: 279px;
+    height: 40px;
+    color: #ffffff;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    /*overflow-x: hidden;*/
+    overflow-y: hidden;
+}
+.cc_2_1 p:nth-of-type(1){
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dd_1 .thumbnail{
+    /*box-shadow:0px 0px  10px 5px #aaa;*/
+    position: relative;
+    /*top: 10px;*/
+}
+.dd_1 p{
+    height: 40px;
+}
+.dd_1 .h1{
+    color: red;
+}
+.ee_1{
+    width: 855px;
+    /*border: 1px solid black;*/
+}
+.ee_1 ul{
+    padding-left: 0px;
+}
+.ee_1 ul li{
+    width: 210px;
+    height: 169px;
+    padding: 10px;
+    border: 2px solid #e9e9e9;
+    margin-top: 5px;
+    display: inline-block;
+}
+.ee_1 ul li p:nth-of-type(4) span{
+    color: red;
+}
+.ff{
+    margin-top: 10px;
+}
+.ff_1 dl .dd_a1 a{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5%;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.ff_1 dl .dd_a2 a{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5%;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.ff_2{
+    width: 910px;
+}
+.ff_2 .thumbnail{
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
+}
+.ff_2 .thumbnail img:nth-of-type(2){
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+.ff_2 .thumbnail p:nth-of-type(1) span{
+    font-size: 20px;
+}
+/*隐藏清空图标*/
+.ff_2 .thumbnail .star-rating .clear-rating {
+    display: none;
+}
+/*隐藏显示文本内容*/
+.ff_2 .thumbnail .star-rating .caption {
+    display: none;
+}
+.rating-active {
+    display: inline-block;
+}
+.gg{
+    height: 140px;
+    overflow-y: hidden;
+}
+.gg ul li div{
+    display: inline-block;
+    text-align: center;
+    margin-right: 35px;
+}
+.hh{
+    width: 100%;
+    padding: 20px;
+    background-color: #1649AF;
+}
+.hh p{
+    color: #ffffff;
+}
+.hh p:nth-of-type(1) img{
+    vertical-align: baseline;
+}
+.hh p:nth-of-type(4) span{
+    display: inline-block;
+    padding: 5px 30px;
+    color: #1649AF;
+    background-color: #FFFFFF;
+}
+.ii{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+.ii ul li{
+    width: 300px;
+    display: inline-block;
+}
+.ii ul li img{
+    margin-right: 10px;
+}
+.ii ul li p{
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.ii dl{
+    margin-right: 85px;
+    display: inline-block;
+}
+.ii dl a{
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.jj{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+.jj_1{
+    text-align: center;
+    color: #8d8d8d;
+    border-top: 1px solid #8d8d8d;
+}
+
+
+
+
+
+
+

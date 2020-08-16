@@ -1,0 +1,81 @@
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a{
+    text-decoration : none;
+}
+.aa{
+    border-bottom: 2px solid #CCCCCC
+}
+.aa img{
+    width: 200px;
+    height: 150px;
+}
+.aa p{
+    margin-top: 100px;
+}
+.bb{
+    height: 50px;
+    line-height: 50px;
+}
+.bb label{
+    margin-left: 50px;
+}
+form .span1{
+    width: 120px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+}
+.form-control {
+    height: 50px;
+}
+form div{
+    margin-top: 35px;
+}
+form .span2{
+    width: 55px;
+    height: 25px;
+    font-weight: bold;
+    border: 1px solid;
+    display: inline-block;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+form .span3{
+    cursor:pointer;
+}
+.cc{
+    border-bottom: 1px solid #cccccc;
+}
+.c_c{
+    display: none;
+    border-bottom: 1px solid #cccccc;
+}
+.dd p{
+    color: #8E8E8E;
+}
+.ee ul li{
+    padding: 0px;
+    border: 1px solid #8E8E8E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
